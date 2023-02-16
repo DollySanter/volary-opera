@@ -82,12 +82,12 @@ var (
 
 	RPCGlobalGasCapFlag = cli.Uint64Flag{
 		Name:  "rpc.gascap",
-		Usage: "Sets a cap on gas that can be used in ftm_call/estimateGas (0=infinite)",
+		Usage: "Sets a cap on gas that can be used in volary_call/estimateGas (0=infinite)",
 		Value: gossip.DefaultConfig(cachescale.Identity).RPCGasCap,
 	}
 	RPCGlobalTxFeeCapFlag = cli.Float64Flag{
 		Name:  "rpc.txfeecap",
-		Usage: "Sets a cap on transaction fee (in FTM) that can be sent via the RPC APIs (0 = no cap)",
+		Usage: "Sets a cap on transaction fee (in volary) that can be sent via the RPC APIs (0 = no cap)",
 		Value: gossip.DefaultConfig(cachescale.Identity).RPCTxFeeCap,
 	}
 
@@ -181,7 +181,7 @@ func mayGetGenesisStore(ctx *cli.Context) *genesisstore.Store {
 		if err != nil {
 			log.Crit("Invalid flag", "flag", FakeNetFlag.Name, "err", err)
 		}
-		return makefakegenesis.FakeGenesisStore(num, futils.ToFtm(1000000000), futils.ToFtm(5000000))
+		return makefakegenesis.FakeGenesisStore(num, futils.ToVolary(1000000000), futils.ToVolary(5000000))
 	case ctx.GlobalIsSet(GenesisFlag.Name):
 		genesisPath := ctx.GlobalString(GenesisFlag.Name)
 
@@ -422,8 +422,8 @@ func defaultNodeConfig() node.Config {
 	cfg := NodeDefaultConfig
 	cfg.Name = clientIdentifier
 	cfg.Version = params.VersionWithCommit(gitCommit, gitDate)
-	cfg.HTTPModules = append(cfg.HTTPModules, "eth", "ftm", "dag", "abft", "web3")
-	cfg.WSModules = append(cfg.WSModules, "eth", "ftm", "dag", "abft", "web3")
+	cfg.HTTPModules = append(cfg.HTTPModules, "eth", "vlary", "dag", "abft", "web3")
+	cfg.WSModules = append(cfg.WSModules, "eth", "vlary", "dag", "abft", "web3")
 	cfg.IPCPath = "opera.ipc"
 	cfg.DataDir = DefaultDataDir()
 	return cfg
