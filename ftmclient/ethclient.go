@@ -1,4 +1,4 @@
-package ftmclient
+package volaryclient
 
 import (
 	"context"
@@ -7,7 +7,7 @@ import (
 	"github.com/ethereum/go-ethereum/rpc"
 )
 
-// Client extends Ethereum API client with typed wrappers for the FTM API.
+// Client extends Ethereum API client with typed wrappers for the Volary API.
 type Client struct {
 	ethclient.Client
 	c *rpc.Client
