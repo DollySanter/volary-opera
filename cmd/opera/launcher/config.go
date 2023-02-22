@@ -422,8 +422,8 @@ func defaultNodeConfig() node.Config {
 	cfg := NodeDefaultConfig
 	cfg.Name = clientIdentifier
 	cfg.Version = params.VersionWithCommit(gitCommit, gitDate)
-	cfg.HTTPModules = append(cfg.HTTPModules, "eth", "vlary", "dag", "abft", "web3")
-	cfg.WSModules = append(cfg.WSModules, "eth", "vlary", "dag", "abft", "web3")
+	cfg.HTTPModules = append(cfg.HTTPModules, "eth", "vlry", "dag", "abft", "web3")
+	cfg.WSModules = append(cfg.WSModules, "eth", "vlry", "dag", "abft", "web3")
 	cfg.IPCPath = "opera.ipc"
 	cfg.DataDir = DefaultDataDir()
 	return cfg
