@@ -1,4 +1,4 @@
-module github.com/Fantom-foundation/go-opera
+module  github.com/DollySanter/volary-opera
 
 go 1.14
 
