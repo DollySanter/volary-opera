@@ -3,8 +3,8 @@ package genesis
 import (
 	"github.com/Fantom-foundation/lachesis-base/hash"
 
-	"github.com/Fantom-foundation/go-opera/inter/ibr"
-	"github.com/Fantom-foundation/go-opera/inter/ier"
+	"github.com/DollySanter/volary-opera/inter/ibr"
+	"github.com/DollySanter/volary-opera/inter/ier"
 )
 
 type (

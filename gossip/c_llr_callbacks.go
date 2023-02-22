@@ -9,11 +9,11 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
 
-	"github.com/Fantom-foundation/go-opera/eventcheck"
-	"github.com/Fantom-foundation/go-opera/gossip/evmstore"
-	"github.com/Fantom-foundation/go-opera/inter"
-	"github.com/Fantom-foundation/go-opera/inter/ibr"
-	"github.com/Fantom-foundation/go-opera/inter/ier"
+	"github.com/DollySanter/volary-opera/eventcheck"
+	"github.com/DollySanter/volary-opera/gossip/evmstore"
+	"github.com/DollySanter/volary-opera/inter"
+	"github.com/DollySanter/volary-opera/inter/ibr"
+	"github.com/DollySanter/volary-opera/inter/ier"
 )
 
 var errValidatorNotExist = errors.New("validator does not exist")

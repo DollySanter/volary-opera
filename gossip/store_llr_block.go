@@ -9,10 +9,10 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/rlp"
 
-	"github.com/Fantom-foundation/go-opera/inter"
-	"github.com/Fantom-foundation/go-opera/inter/ibr"
-	"github.com/Fantom-foundation/go-opera/inter/ier"
-	"github.com/Fantom-foundation/go-opera/utils/bitmap"
+	"github.com/DollySanter/volary-opera/inter"
+	"github.com/DollySanter/volary-opera/inter/ibr"
+	"github.com/DollySanter/volary-opera/inter/ier"
+	"github.com/DollySanter/volary-opera/utils/bitmap"
 )
 
 func (s *Store) SetBlockVotes(bvs inter.LlrSignedBlockVotes) {

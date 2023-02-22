@@ -11,11 +11,11 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	notify "github.com/ethereum/go-ethereum/event"
 
-	"github.com/Fantom-foundation/go-opera/evmcore"
-	"github.com/Fantom-foundation/go-opera/inter"
-	"github.com/Fantom-foundation/go-opera/opera"
-	"github.com/Fantom-foundation/go-opera/valkeystore"
-	"github.com/Fantom-foundation/go-opera/vecmt"
+	"github.com/DollySanter/volary-opera/evmcore"
+	"github.com/DollySanter/volary-opera/inter"
+	"github.com/DollySanter/volary-opera/opera"
+	"github.com/DollySanter/volary-opera/valkeystore"
+	"github.com/DollySanter/volary-opera/vecmt"
 )
 
 var (

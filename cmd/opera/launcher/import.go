@@ -23,12 +23,12 @@ import (
 	"github.com/status-im/keycard-go/hexutils"
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/Fantom-foundation/go-opera/gossip"
-	"github.com/Fantom-foundation/go-opera/gossip/emitter"
-	"github.com/Fantom-foundation/go-opera/integration"
-	"github.com/Fantom-foundation/go-opera/inter"
-	"github.com/Fantom-foundation/go-opera/opera/genesisstore"
-	"github.com/Fantom-foundation/go-opera/utils/ioread"
+	"github.com/DollySanter/volary-opera/gossip"
+	"github.com/DollySanter/volary-opera/gossip/emitter"
+	"github.com/DollySanter/volary-opera/integration"
+	"github.com/DollySanter/volary-opera/inter"
+	"github.com/DollySanter/volary-opera/opera/genesisstore"
+	"github.com/DollySanter/volary-opera/utils/ioread"
 )
 
 func importEvm(ctx *cli.Context) error {

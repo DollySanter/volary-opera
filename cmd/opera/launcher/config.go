@@ -21,16 +21,16 @@ import (
 	"github.com/naoina/toml"
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/Fantom-foundation/go-opera/evmcore"
-	"github.com/Fantom-foundation/go-opera/gossip"
-	"github.com/Fantom-foundation/go-opera/gossip/emitter"
-	"github.com/Fantom-foundation/go-opera/gossip/gasprice"
-	"github.com/Fantom-foundation/go-opera/integration"
-	"github.com/Fantom-foundation/go-opera/integration/makefakegenesis"
-	"github.com/Fantom-foundation/go-opera/opera/genesis"
-	"github.com/Fantom-foundation/go-opera/opera/genesisstore"
-	futils "github.com/Fantom-foundation/go-opera/utils"
-	"github.com/Fantom-foundation/go-opera/vecmt"
+	"github.com/DollySanter/volary-opera/evmcore"
+	"github.com/DollySanter/volary-opera/gossip"
+	"github.com/DollySanter/volary-opera/gossip/emitter"
+	"github.com/DollySanter/volary-opera/gossip/gasprice"
+	"github.com/DollySanter/volary-opera/integration"
+	"github.com/DollySanter/volary-opera/integration/makefakegenesis"
+	"github.com/DollySanter/volary-opera/opera/genesis"
+	"github.com/DollySanter/volary-opera/opera/genesisstore"
+	futils "github.com/DollySanter/volary-opera/utils"
+	"github.com/DollySanter/volary-opera/vecmt"
 )
 
 var (

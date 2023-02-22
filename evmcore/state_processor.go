@@ -27,8 +27,8 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/params"
 
-	"github.com/Fantom-foundation/go-opera/utils/signers/gsignercache"
-	"github.com/Fantom-foundation/go-opera/utils/signers/internaltx"
+	"github.com/DollySanter/volary-opera/utils/signers/gsignercache"
+	"github.com/DollySanter/volary-opera/utils/signers/internaltx"
 )
 
 // StateProcessor is a basic Processor, which takes care of transitioning

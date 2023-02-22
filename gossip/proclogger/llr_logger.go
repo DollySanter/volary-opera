@@ -7,11 +7,11 @@ import (
 	"github.com/Fantom-foundation/lachesis-base/hash"
 	"github.com/Fantom-foundation/lachesis-base/inter/idx"
 
-	"github.com/Fantom-foundation/go-opera/inter"
-	"github.com/Fantom-foundation/go-opera/inter/ibr"
-	"github.com/Fantom-foundation/go-opera/inter/ier"
-	"github.com/Fantom-foundation/go-opera/logger"
-	"github.com/Fantom-foundation/go-opera/utils"
+	"github.com/DollySanter/volary-opera/inter"
+	"github.com/DollySanter/volary-opera/inter/ibr"
+	"github.com/DollySanter/volary-opera/inter/ier"
+	"github.com/DollySanter/volary-opera/logger"
+	"github.com/DollySanter/volary-opera/utils"
 )
 
 type dagSum struct {

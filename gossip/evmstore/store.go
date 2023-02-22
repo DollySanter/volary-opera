@@ -20,12 +20,12 @@ import (
 	"github.com/ethereum/go-ethereum/trie"
 	"github.com/syndtr/goleveldb/leveldb/opt"
 
-	"github.com/Fantom-foundation/go-opera/inter"
-	"github.com/Fantom-foundation/go-opera/inter/iblockproc"
-	"github.com/Fantom-foundation/go-opera/logger"
-	"github.com/Fantom-foundation/go-opera/topicsdb"
-	"github.com/Fantom-foundation/go-opera/utils/adapters/kvdb2ethdb"
-	"github.com/Fantom-foundation/go-opera/utils/rlpstore"
+	"github.com/DollySanter/volary-opera/inter"
+	"github.com/DollySanter/volary-opera/inter/iblockproc"
+	"github.com/DollySanter/volary-opera/logger"
+	"github.com/DollySanter/volary-opera/topicsdb"
+	"github.com/DollySanter/volary-opera/utils/adapters/kvdb2ethdb"
+	"github.com/DollySanter/volary-opera/utils/rlpstore"
 )
 
 const nominalSize uint = 1

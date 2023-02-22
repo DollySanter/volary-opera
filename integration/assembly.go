@@ -18,10 +18,10 @@ import (
 	"github.com/ethereum/go-ethereum/metrics"
 	"github.com/status-im/keycard-go/hexutils"
 
-	"github.com/Fantom-foundation/go-opera/gossip"
-	"github.com/Fantom-foundation/go-opera/opera/genesis"
-	"github.com/Fantom-foundation/go-opera/utils/adapters/vecmt2dagidx"
-	"github.com/Fantom-foundation/go-opera/vecmt"
+	"github.com/DollySanter/volary-opera/gossip"
+	"github.com/DollySanter/volary-opera/opera/genesis"
+	"github.com/DollySanter/volary-opera/utils/adapters/vecmt2dagidx"
+	"github.com/DollySanter/volary-opera/vecmt"
 )
 
 var (

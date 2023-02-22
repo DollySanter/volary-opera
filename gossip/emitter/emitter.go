@@ -15,13 +15,13 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	lru "github.com/hashicorp/golang-lru"
 
-	"github.com/Fantom-foundation/go-opera/evmcore"
-	"github.com/Fantom-foundation/go-opera/gossip/emitter/originatedtxs"
-	"github.com/Fantom-foundation/go-opera/inter"
-	"github.com/Fantom-foundation/go-opera/logger"
-	"github.com/Fantom-foundation/go-opera/tracing"
-	"github.com/Fantom-foundation/go-opera/utils/piecefunc"
-	"github.com/Fantom-foundation/go-opera/utils/rate"
+	"github.com/DollySanter/volary-opera/evmcore"
+	"github.com/DollySanter/volary-opera/gossip/emitter/originatedtxs"
+	"github.com/DollySanter/volary-opera/inter"
+	"github.com/DollySanter/volary-opera/logger"
+	"github.com/DollySanter/volary-opera/tracing"
+	"github.com/DollySanter/volary-opera/utils/piecefunc"
+	"github.com/DollySanter/volary-opera/utils/rate"
 )
 
 const (

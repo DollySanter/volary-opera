@@ -29,7 +29,7 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/Fantom-foundation/go-opera/inter"
+	"github.com/DollySanter/volary-opera/inter"
 )
 
 var FakeGenesisTime = inter.Timestamp(1608600000 * time.Second)

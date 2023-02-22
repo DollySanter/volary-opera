@@ -92,27 +92,27 @@ go test ./...
 
 If everything goes well, it should output something along these lines:
 ```
-ok  	github.com/Fantom-foundation/go-opera/app	0.033s
-?   	github.com/Fantom-foundation/go-opera/cmd/cmdtest	[no test files]
-ok  	github.com/Fantom-foundation/go-opera/cmd/opera	13.890s
-?   	github.com/Fantom-foundation/go-opera/cmd/opera/metrics	[no test files]
-?   	github.com/Fantom-foundation/go-opera/cmd/opera/tracing	[no test files]
-?   	github.com/Fantom-foundation/go-opera/crypto	[no test files]
-?   	github.com/Fantom-foundation/go-opera/debug	[no test files]
-?   	github.com/Fantom-foundation/go-opera/ethapi	[no test files]
-?   	github.com/Fantom-foundation/go-opera/eventcheck	[no test files]
-?   	github.com/Fantom-foundation/go-opera/eventcheck/basiccheck	[no test files]
-?   	github.com/Fantom-foundation/go-opera/eventcheck/gaspowercheck	[no test files]
-?   	github.com/Fantom-foundation/go-opera/eventcheck/heavycheck	[no test files]
-?   	github.com/Fantom-foundation/go-opera/eventcheck/parentscheck	[no test files]
-ok  	github.com/Fantom-foundation/go-opera/evmcore	6.322s
-?   	github.com/Fantom-foundation/go-opera/gossip	[no test files]
-?   	github.com/Fantom-foundation/go-opera/gossip/emitter	[no test files]
-ok  	github.com/Fantom-foundation/go-opera/gossip/filters	1.250s
-?   	github.com/Fantom-foundation/go-opera/gossip/gasprice	[no test files]
-?   	github.com/Fantom-foundation/go-opera/gossip/occuredtxs	[no test files]
-?   	github.com/Fantom-foundation/go-opera/gossip/piecefunc	[no test files]
-ok  	github.com/Fantom-foundation/go-opera/integration	21.640s
+ok  	github.com/DollySanter/volary-opera/app	0.033s
+?   	github.com/DollySanter/volary-opera/cmd/cmdtest	[no test files]
+ok  	github.com/DollySanter/volary-opera/cmd/opera	13.890s
+?   	github.com/DollySanter/volary-opera/cmd/opera/metrics	[no test files]
+?   	github.com/DollySanter/volary-opera/cmd/opera/tracing	[no test files]
+?   	github.com/DollySanter/volary-opera/crypto	[no test files]
+?   	github.com/DollySanter/volary-opera/debug	[no test files]
+?   	github.com/DollySanter/volary-opera/ethapi	[no test files]
+?   	github.com/DollySanter/volary-opera/eventcheck	[no test files]
+?   	github.com/DollySanter/volary-opera/eventcheck/basiccheck	[no test files]
+?   	github.com/DollySanter/volary-opera/eventcheck/gaspowercheck	[no test files]
+?   	github.com/DollySanter/volary-opera/eventcheck/heavycheck	[no test files]
+?   	github.com/DollySanter/volary-opera/eventcheck/parentscheck	[no test files]
+ok  	github.com/DollySanter/volary-opera/evmcore	6.322s
+?   	github.com/DollySanter/volary-opera/gossip	[no test files]
+?   	github.com/DollySanter/volary-opera/gossip/emitter	[no test files]
+ok  	github.com/DollySanter/volary-opera/gossip/filters	1.250s
+?   	github.com/DollySanter/volary-opera/gossip/gasprice	[no test files]
+?   	github.com/DollySanter/volary-opera/gossip/occuredtxs	[no test files]
+?   	github.com/DollySanter/volary-opera/gossip/piecefunc	[no test files]
+ok  	github.com/DollySanter/volary-opera/integration	21.640s
 ```
 
 Also it is tested with [fuzzing](./FUZZING.md).

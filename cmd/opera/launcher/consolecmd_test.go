@@ -13,7 +13,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/params"
 
-	"github.com/Fantom-foundation/go-opera/integration/makefakegenesis"
+	"github.com/DollySanter/volary-opera/integration/makefakegenesis"
 )
 
 const (

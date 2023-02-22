@@ -21,19 +21,19 @@ import (
 
 	evmetrics "github.com/ethereum/go-ethereum/metrics"
 
-	"github.com/Fantom-foundation/go-opera/cmd/opera/launcher/metrics"
-	"github.com/Fantom-foundation/go-opera/cmd/opera/launcher/tracing"
-	"github.com/Fantom-foundation/go-opera/debug"
-	"github.com/Fantom-foundation/go-opera/evmcore"
-	"github.com/Fantom-foundation/go-opera/flags"
-	"github.com/Fantom-foundation/go-opera/gossip"
-	"github.com/Fantom-foundation/go-opera/gossip/emitter"
-	"github.com/Fantom-foundation/go-opera/integration"
-	"github.com/Fantom-foundation/go-opera/opera/genesis"
-	"github.com/Fantom-foundation/go-opera/opera/genesisstore"
-	"github.com/Fantom-foundation/go-opera/utils/errlock"
-	"github.com/Fantom-foundation/go-opera/valkeystore"
-	_ "github.com/Fantom-foundation/go-opera/version"
+	"github.com/DollySanter/volary-opera/cmd/opera/launcher/metrics"
+	"github.com/DollySanter/volary-opera/cmd/opera/launcher/tracing"
+	"github.com/DollySanter/volary-opera/debug"
+	"github.com/DollySanter/volary-opera/evmcore"
+	"github.com/DollySanter/volary-opera/flags"
+	"github.com/DollySanter/volary-opera/gossip"
+	"github.com/DollySanter/volary-opera/gossip/emitter"
+	"github.com/DollySanter/volary-opera/integration"
+	"github.com/DollySanter/volary-opera/opera/genesis"
+	"github.com/DollySanter/volary-opera/opera/genesisstore"
+	"github.com/DollySanter/volary-opera/utils/errlock"
+	"github.com/DollySanter/volary-opera/valkeystore"
+	_ "github.com/DollySanter/volary-opera/version"
 )
 
 const (

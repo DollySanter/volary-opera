@@ -6,9 +6,9 @@ import (
 	"github.com/Fantom-foundation/lachesis-base/hash"
 	"github.com/Fantom-foundation/lachesis-base/inter/idx"
 
-	"github.com/Fantom-foundation/go-opera/eventcheck/basiccheck"
-	"github.com/Fantom-foundation/go-opera/inter"
-	"github.com/Fantom-foundation/go-opera/utils/piecefunc"
+	"github.com/DollySanter/volary-opera/eventcheck/basiccheck"
+	"github.com/DollySanter/volary-opera/inter"
+	"github.com/DollySanter/volary-opera/utils/piecefunc"
 )
 
 var emptyLlrBlockVotes = inter.LlrBlockVotes{

@@ -36,17 +36,17 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/Fantom-foundation/go-opera/gossip/contract/driver100"
-	"github.com/Fantom-foundation/go-opera/gossip/contract/driverauth100"
-	"github.com/Fantom-foundation/go-opera/gossip/contract/netinit100"
-	"github.com/Fantom-foundation/go-opera/gossip/contract/sfc100"
-	"github.com/Fantom-foundation/go-opera/logger"
-	"github.com/Fantom-foundation/go-opera/opera/contracts/driver"
-	"github.com/Fantom-foundation/go-opera/opera/contracts/driverauth"
-	"github.com/Fantom-foundation/go-opera/opera/contracts/evmwriter"
-	"github.com/Fantom-foundation/go-opera/opera/contracts/netinit"
-	"github.com/Fantom-foundation/go-opera/opera/contracts/sfc"
-	"github.com/Fantom-foundation/go-opera/utils"
+	"github.com/DollySanter/volary-opera/gossip/contract/driver100"
+	"github.com/DollySanter/volary-opera/gossip/contract/driverauth100"
+	"github.com/DollySanter/volary-opera/gossip/contract/netinit100"
+	"github.com/DollySanter/volary-opera/gossip/contract/sfc100"
+	"github.com/DollySanter/volary-opera/logger"
+	"github.com/DollySanter/volary-opera/opera/contracts/driver"
+	"github.com/DollySanter/volary-opera/opera/contracts/driverauth"
+	"github.com/DollySanter/volary-opera/opera/contracts/evmwriter"
+	"github.com/DollySanter/volary-opera/opera/contracts/netinit"
+	"github.com/DollySanter/volary-opera/opera/contracts/sfc"
+	"github.com/DollySanter/volary-opera/utils"
 )
 
 func TestSFC(t *testing.T) {

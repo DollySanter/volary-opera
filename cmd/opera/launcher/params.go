@@ -5,9 +5,9 @@ import (
 	"github.com/ethereum/go-ethereum/p2p/enode"
 	"github.com/ethereum/go-ethereum/params"
 
-	"github.com/Fantom-foundation/go-opera/opera"
-	"github.com/Fantom-foundation/go-opera/opera/genesis"
-	"github.com/Fantom-foundation/go-opera/opera/genesisstore"
+	"github.com/DollySanter/volary-opera/opera"
+	"github.com/DollySanter/volary-opera/opera/genesis"
+	"github.com/DollySanter/volary-opera/opera/genesisstore"
 )
 
 // TODO: put enodes here

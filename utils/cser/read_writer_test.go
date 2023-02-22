@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/Fantom-foundation/go-opera/utils/bits"
-	"github.com/Fantom-foundation/go-opera/utils/fast"
+	"github.com/DollySanter/volary-opera/utils/bits"
+	"github.com/DollySanter/volary-opera/utils/fast"
 )
 
 func TestUint64Compact(t *testing.T) {

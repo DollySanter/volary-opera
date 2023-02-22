@@ -8,7 +8,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/core/types"
 
-	"github.com/Fantom-foundation/go-opera/utils/piecefunc"
+	"github.com/DollySanter/volary-opera/utils/piecefunc"
 )
 
 const (

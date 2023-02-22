@@ -12,9 +12,9 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/Fantom-foundation/go-opera/inter/validatorpk"
-	"github.com/Fantom-foundation/go-opera/valkeystore"
-	"github.com/Fantom-foundation/go-opera/valkeystore/encryption"
+	"github.com/DollySanter/volary-opera/inter/validatorpk"
+	"github.com/DollySanter/volary-opera/valkeystore"
+	"github.com/DollySanter/volary-opera/valkeystore/encryption"
 )
 
 var (
