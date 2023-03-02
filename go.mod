@@ -1,4 +1,4 @@
-module  github.com/DollySanter/volary-opera
+module github.com/DollySanter/volary-opera
 
 go 1.14
 
@@ -45,6 +45,6 @@ require (
 	gopkg.in/urfave/cli.v1 v1.20.0
 )
 
-replace github.com/ethereum/go-ethereum => github.com/DollySanter/volary-personal v1.8.0
+replace github.com/ethereum/go-ethereum => gitlab.com/go-volary/web3-volary.git v1.13.2
 
 replace github.com/dvyukov/go-fuzz => github.com/guzenok/go-fuzz v0.0.0-20210103140116-f9104dfb626f
